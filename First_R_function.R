@@ -14,3 +14,9 @@ columnmean <- function(y, removeNA = T){
   }
   means
 }
+
+#lazy Evaluation
+temp <- function(a,b){
+  print(a)
+  print(b)
+}
